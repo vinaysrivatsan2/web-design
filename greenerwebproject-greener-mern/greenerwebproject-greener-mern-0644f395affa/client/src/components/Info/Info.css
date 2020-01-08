@@ -1,0 +1,79 @@
+#bg{
+  background-color:	#7FFFD4; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#7FFFD4, white);
+}
+
+#a{
+    border-radius: 25px;
+    width: 100%;
+  height: auto;
+
+
+}
+#b{
+    margin:0 auto; /* this will center the page */
+    width:60%;
+}
+#awarness{
+    text-align: center;
+    
+}
+#button{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+#expl{
+    text-align: justify;
+    text-justify: inter-word;
+    
+  }
+  #z {
+    background-image: url("../../assets/images/biogas.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 120% 110%;
+  }  
+  #windbg{
+    background-color:	#7FFFD4; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,	#7FFFD4, white);
+
+  }
+  #head{
+    text-align: right;
+  }
+  #wind{
+    border-radius: 25px;
+    margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height:50%;
+  
+  }
+  .column{
+    margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+    text-align: justify;
+    color:black;
+    
+  }
+  #head2{
+    margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: justify;
+  color:black;
+  }
+  #con{
+    margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
+    
+  }
+  #head1{
+    color:black;
+    text-align: center;
+
+  }

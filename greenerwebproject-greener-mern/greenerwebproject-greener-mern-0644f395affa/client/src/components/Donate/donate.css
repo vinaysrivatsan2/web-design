@@ -1,0 +1,79 @@
+/* .input-line {
+  background: none;
+  border: none;
+  width: 20rem;
+  font-weight: 300;
+  letter-spacing: 0px;
+  letter-spacing: 0.02rem;
+  border-bottom: 1px solid black;
+} */
+
+.container {
+  min-height: 38rem;
+  
+}
+#topic{
+  color: black;
+}
+#full{
+  background: linear-gradient(to bottom, #F7F8FF 0%, #ebb8b0 100%);
+}
+
+.column {
+    width:50%;
+      margin-left: auto;
+  margin-right: auto;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #title{
+      text-align: center;
+  }
+  #qr{
+    float: left;
+    margin-left: 15rem;
+  }
+  #dbtn{
+    width:100%;
+    margin-left: auto;
+margin-right: auto;
+text-align: center;
+  }
+  #hist{
+    float:right;
+  }
+  #donationTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    margin-left:25rem;
+  }
+  
+  #donationTable td, #donationTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #donationTable tr{background-color: #f2f2f2;}
+  
+  #donationTable tr:hover {background-color: #ddd;}
+  
+  #donationTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7DA89E;
+    color: white;
+  }
+#donatebg{
+  padding-top: 25px;
+}
+#title{
+  padding-top: 25px;
+}
+.amountClass {
+  margin-left: 23.5rem;
+}

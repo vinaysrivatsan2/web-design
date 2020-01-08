@@ -1,0 +1,51 @@
+{
+  "name": "greener-mern",
+  "version": "1.0.0",
+  "description": "greener web application",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.2.6",
+    "concurrently": "^5.0.0",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "google-maps-react": "^2.0.2",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.8.0",
+    "nodemailer": "^6.4.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "rd3": "^0.8.1",
+    "react-async-script-loader": "^0.3.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-paypal-button": "^4.1.1",
+    "react-paypal-button-v2": "^2.6.1",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
